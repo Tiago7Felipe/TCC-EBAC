@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 
-context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
+context('Adicionar itens ao carrinho', () => {
 
     beforeEach(() => {
         //acessar a minha conta
@@ -13,7 +13,7 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
     });
 
 
-    it('Deve fazer um pedido na loja Ebac Shop de ponta a ponta', () => {
+    it('Deve adicionar itens ao carrinho', () => {
         var produto1 = 'Abominable Hoodie'
         var produto2 = 'Aero Daily Fitness Tee'
         var produto3 = 'Apollo Running Short'
