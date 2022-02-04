@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonar o Repositório') {
             steps {
-                git branch: 'main', url: 'https://github.com/Tiago7Felipe/NATIVE-DEMO-APP.git'
+                git branch: 'main', url: 'https://github.com/Tiago7Felipe/TCC-EBAC.git'
             }
         }
                 stage('instalar dependencias') {
